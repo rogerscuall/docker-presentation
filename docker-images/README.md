@@ -2,6 +2,7 @@
 1. Create a dockerfile:
     - vi dockerfile
 2. Inside the file copy:
+
 ```
 FROM ubuntu
 RUN apt-get update
@@ -19,6 +20,7 @@ RUN apt-get install figlet
 1. Create a dockerfile-cmd:
     - vi dockerfile-cmd
 2. Inside the file copy:
+
 ```
 FROM ubuntu
 RUN apt-get update
