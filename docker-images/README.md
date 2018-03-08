@@ -39,6 +39,7 @@ CMD figlet HELLO
 1. Create a dockerfile-ngix:
     - `vi dockerfile-cmd`
 2. Inside the file copy:
+
 ```
 FROM nginx:1.13-alpine
 COPY nginx-conf/index.html /usr/share/nginx/html/
