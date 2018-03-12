@@ -4,7 +4,7 @@
     - `docker run -d -P --name web2 nginx`
 2. Find the ports mapping.
     - `docker port web2`
-3. Open a browser to http://0.0.0.0:<PORT>
+3. Open a browser to `http://0.0.0.0:<PORT>`
 
 ## Create container networks:
 1. Create a new network:
