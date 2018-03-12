@@ -1,4 +1,5 @@
-# Create an simple image
+# Container image
+## Create an simple image
 1. Create a dockerfile:
     - vi dockerfile
 2. Inside the file copy:
@@ -16,7 +17,7 @@ RUN apt-get install figlet
 6. Run the container:
     - `docker run -ti figlet figlet HELLO`
 
-# Create an image with a process to execute
+## Create an image with a process to execute
 1. Create a dockerfile-cmd:
     - vi dockerfile-cmd
 2. Inside the file copy:
@@ -35,7 +36,7 @@ CMD figlet HELLO
 6. Run the container:
     - `docker run -ti figlet-cmd`
 
-# NGINX image to say HELLO
+## NGINX image to say HELLO
 1. Create a dockerfile-ngix:
     - `vi dockerfile-cmd`
 2. Inside the file copy:
@@ -60,7 +61,7 @@ COPY nginx-conf/index.html /usr/share/nginx/html/
 8. Use your browser to go to:
     - `http://localhost:<PORT>`
 
-## Don’t lose your container, share it.
+### Don’t lose your container, share it.
 1. Login to dockerhub
     - `docker login`
 2. Use the correct tag in your container:
