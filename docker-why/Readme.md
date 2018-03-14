@@ -16,3 +16,5 @@
     3. a curl was executed to the container: `curl localhost:8888` and got back `HELLO PRESIDIO`
     4. the contair was stopped: `docker stop web_demo`
     5. the container was removed: `docker rm web_demo`
+## Update your code
+![VIDEO](cd-ci1-update.mp4)
