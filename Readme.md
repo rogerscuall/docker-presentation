@@ -5,3 +5,5 @@
     - `git clone https://gitlab.presidio.com/rgomez/docker-presentation`
 2. Create an account in dockerhub.com
     - `https://hub.docker.com/`
+3. 
+4. If you find any problem submit an [issue](https://gitlab.presidio.com/rgomez/docker-presentation/issues/new).
