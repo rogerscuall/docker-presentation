@@ -69,8 +69,8 @@ COPY nginx-conf/index.html /usr/share/nginx/html/
 3. Push your container:
     - `docker push dockehub_username/test_nginx:v1`
 4. Delete your image from your hard-drive.
-    - `docker image rm dockehub_username /test_nginx:v1`
+    - `docker image rm dockehub_username/test_nginx:v1`
 5. Verify the image is not longer present:
     - `docker images`
 6. Download the image again:
-    - `docker pull dockehub_username /test_nginx:v1`
+    - `docker pull dockehub_username/test_nginx:v1`
