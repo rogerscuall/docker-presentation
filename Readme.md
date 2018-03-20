@@ -4,4 +4,4 @@
 2. Download this repository
     - `git clone https://gitlab.presidio.com/rgomez/docker-presentation`
 2. Create an account in dockerhub.com
-3. 
+    - `https://hub.docker.com/`
