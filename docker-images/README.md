@@ -65,12 +65,12 @@ COPY nginx-conf/index.html /usr/share/nginx/html/
 1. Login to dockerhub
     - `docker login`
 2. Use the correct tag in your container:
-    - `docker tag mynginx dockehub_username/test_nginx:v1`
+    - `docker tag mynginx dockerhub_username/test_nginx:v1`
 3. Push your container:
-    - `docker push dockehub_username/test_nginx:v1`
+    - `docker push dockerhub_username/test_nginx:v1`
 4. Delete your image from your hard-drive.
-    - `docker image rm dockehub_username/test_nginx:v1`
+    - `docker image rm dockerhub_username/test_nginx:v1`
 5. Verify the image is not longer present:
     - `docker images`
 6. Download the image again:
-    - `docker pull dockehub_username/test_nginx:v1`
+    - `docker pull dockerhub_username/test_nginx:v1`
