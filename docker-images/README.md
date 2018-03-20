@@ -38,7 +38,7 @@ CMD figlet HELLO
 
 ## NGINX image to say HELLO
 1. Create a dockerfile-ngix:
-    - `vi dockerfile-cmd`
+    - `vi dockerfile-nginx`
 2. Inside the file copy:
 
 ```
