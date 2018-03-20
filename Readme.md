@@ -6,4 +6,5 @@
 3. Create an account in dockerhub.com
     - `https://hub.docker.com/`
 4. Go through the [presentation](https://gitlab.presidio.com/rgomez/docker-presentation/blob/master/Docker%20presentation.pptx). 
-5. If you find any problem submit an [issue](https://gitlab.presidio.com/rgomez/docker-presentation/issues/new).
+5. Every major topic has some supporting information in the repo inside the folder `docker-topic`, for example for storage inside `docker-storage` folder.
+6. If you find any problem submit an [issue](https://gitlab.presidio.com/rgomez/docker-presentation/issues/new).
