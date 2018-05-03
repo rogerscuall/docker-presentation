@@ -1,6 +1,6 @@
 # Docker presentation
 # Preparation before the presentation
-1. Move to a dictory that you will use for this tutorial.
+1. Move to a directory that you will use for this tutorial.
 2. Download this repository
     - `git clone https://gitlab.presidio.com/rgomez/docker-presentation`
 3. Create an account in dockerhub.com
